@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
       scriptProps={{
         src: "plausible.braveriver-f8c1afc3.northeurope.azurecontainerapps.io",
       }}
-      domain="exur.dk"
+      domain="https://plausible-pi.vercel.app/"
     >
       <Component {...pageProps} />
     </PlausibleProvider>
